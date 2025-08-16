@@ -78,6 +78,3 @@ def fetch_open_id():
     except Exception as e:
         return jsonify({"error": "Exception occurred", "details": str(e)}), 500
 
-
-if name == 'main':
-    app.run(debug=True)
