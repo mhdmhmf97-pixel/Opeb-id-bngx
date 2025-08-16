@@ -1,8 +1,8 @@
 {
   "version": 2,
   "functions": {
-    "api/open_id.py": {
-      "runtime": "python3.13"
+    "api/*.py": {
+      "runtime": "python3.11"
     }
   }
 }
